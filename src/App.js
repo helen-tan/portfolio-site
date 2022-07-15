@@ -5,7 +5,11 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <h1 className='text-xl'>Hello World</h1>
+      <div className='flex flex-col justify-between h-screen'>
+        <Navbar />
+
+        <main>Content</main>
+      </div>
     </Router>
   );
 }
