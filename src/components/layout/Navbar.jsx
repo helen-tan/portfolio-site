@@ -15,7 +15,7 @@ function Navbar() {
             <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
               About
             </Link>
-            <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
+            <Link to='/experience' className='btn btn-ghost btn-sm rounded-btn'>
               Experience
             </Link>
             <Link to='/portfolio' className='btn btn-ghost btn-sm rounded-btn'>
