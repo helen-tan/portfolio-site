@@ -10,7 +10,7 @@ function NotFound() {
             Opps!
           </h1>
           <p className="text-5xl mb-8">404 - Page not found!</p>
-          <Link to='/' className='btn btn-primary btn-lg'>
+          <Link to='/' className='btn btn-transparent-teal btn-lg'>
             <FaHome className='mr-2'/>
             Back To Home
           </Link>

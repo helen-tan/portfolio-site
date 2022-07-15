@@ -1,0 +1,11 @@
+.btn-transparent-teal {
+  background: none;
+  color: $teal;
+  border: 3px solid $teal
+}
+
+.btn-transparent-teal:hover {
+  background: $teal;
+  color: white;
+  border: 3px solid $teal;
+}
