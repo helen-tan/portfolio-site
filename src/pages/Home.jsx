@@ -1,6 +1,12 @@
+import Banner from '../components/layout/Banner'
+import About from './About'
+
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <Banner />
+      <About />
+    </>
   )
 }
 
