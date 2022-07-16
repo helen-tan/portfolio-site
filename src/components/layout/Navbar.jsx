@@ -1,8 +1,21 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+  const [transparent, setTransparent] = useState(true)
+
+  const changeBackground = () => {
+    if (window.scrollY >= window.innerHeight) {
+      setTransparent(false)
+    } else {
+      setTransparent(true)
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
-    <nav className='navbar shadow-lg bg-neutral text-neutral-content'>
+    <nav className={`navbar sticky top-0 text-neutral-content ${transparent ? "navbar-transparent": "navbar-black shadow-lg"}`}>
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
           <Link to='/' className='text-lg font-bold align-middle'>
