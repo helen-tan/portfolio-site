@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   const [transparent, setTransparent] = useState(true)
 
+  // Change navbar color when scrolling
   const changeBackground = () => {
-    if (window.scrollY >= window.innerHeight) {
+    if (window.scrollY >= 100) {
       setTransparent(false)
     } else {
       setTransparent(true)
