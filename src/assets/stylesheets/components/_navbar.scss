@@ -25,6 +25,10 @@
     transition: 0.4s;
   }
 
+  .nav-menu.active {
+    left: 0;
+  }
+
   .nav-item {
     margin: 1rem;
   }
