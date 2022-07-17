@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FaBars, FaTimes } from 'react-icons/fa'
 
 function Navbar() {
   const [transparent, setTransparent] = useState(true)
@@ -25,20 +26,32 @@ function Navbar() {
         </div>
 
         <div className="flex-1 px-2 mx-2">
-          <div className="flex justify-end">
-            <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
-              About
-            </Link>
-            <Link to='/experience' className='btn btn-ghost btn-sm rounded-btn'>
-              Experience
-            </Link>
-            <Link to='/portfolio' className='btn btn-ghost btn-sm rounded-btn'>
-              Portfolio
-            </Link>
-            <Link to='/contact' className='btn btn-ghost btn-sm rounded-btn'>
-              Contact
-            </Link>
+          <div className="nav-menu flex justify-end">
+            <div className='nav-item'>
+              <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
+                About
+              </Link>
+            </div>
+            <div className='nav-item'>
+              <Link to='/experience' className='btn btn-ghost btn-sm rounded-btn'>
+                Experience
+              </Link>
+            </div>
+            <div className='nav-item'>
+              <Link to='/portfolio' className='btn btn-ghost btn-sm rounded-btn'>
+                Portfolio
+              </Link>
+            </div>
+            <div className='nav-item'>
+              <Link to='/contact' className='btn btn-ghost btn-sm rounded-btn'>
+                Contact
+              </Link>
+            </div>
           </div>
+        </div>
+
+        <div className='hamburger'>
+          <FaBars />
         </div>
       </div>
     </nav>
