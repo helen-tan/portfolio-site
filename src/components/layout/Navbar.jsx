@@ -33,7 +33,7 @@ function Navbar() {
 
         <div className="flex-1 px-2 mx-2">
           <div className={`${dropdownOpen ? "nav-menu active": "nav-menu"} flex justify-end`}>
-            <Link to='about' spy={true} smooth={true} offset={-64} duration={500} className='nav-item'>
+            <Link to='about' spy={true} smooth={true} offset={0} duration={500} className='nav-item'>
               About
             </Link>
 
