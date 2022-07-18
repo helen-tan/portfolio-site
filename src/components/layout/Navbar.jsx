@@ -25,8 +25,8 @@ function Navbar() {
   return (
     <nav className={`navbar sticky top-0 text-neutral-content ${transparent ? "navbar-transparent": "navbar-black shadow-lg"}`}>
       <div className="container mx-auto">
-        <div className="flex-none px-2 mx-2">
-          <Link to='top' spy={true} smooth={true} offset={50} duration={500} className='text-lg font-bold align-middle'>
+        <div className="logo flex-none px-2 mx-2">
+          <Link to='top' spy={true} smooth={true} offset={0} duration={500} className='text-lg font-bold align-middle'>
             Helen Tan
           </Link>
         </div>
