@@ -1,6 +1,8 @@
 function Experience() {
   return (
-    <div className='h-screen'>Experience</div>
+    <div id='experience' className='h-screen'>
+      Experience
+    </div>
   )
 }
 

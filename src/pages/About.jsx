@@ -1,6 +1,8 @@
 function About() {
   return (
-    <div className='h-screen'>About</div>
+    <div id='about' className='h-screen'>
+      About
+    </div>
   )
 }
 
