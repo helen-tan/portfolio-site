@@ -18,7 +18,8 @@ function Navbar() {
   window.addEventListener('scroll', changeBackground);
 
   const handleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
+    setDropdownOpen(!dropdownOpen)
+    if (window.scrollY <= 100) setTransparent(!transparent)
   }
 
   return (
