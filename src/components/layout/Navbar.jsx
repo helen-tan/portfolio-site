@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 function Navbar() {
@@ -26,32 +25,32 @@ function Navbar() {
     <nav className={`navbar sticky top-0 text-neutral-content ${transparent ? "navbar-transparent": "navbar-black shadow-lg"}`}>
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
-          <Link to='/' className='text-lg font-bold align-middle'>
+          <a href='#top' className='text-lg font-bold align-middle'>
             Helen Tan
-          </Link>
+          </a>
         </div>
 
         <div className="flex-1 px-2 mx-2">
           <div className={`${dropdownOpen ? "nav-menu active": "nav-menu"} flex justify-end`}>
             <div className='nav-item'>
-              <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
+              <a href='#about' className='btn btn-ghost btn-sm rounded-btn'>
                 About
-              </Link>
+              </a>
             </div>
             <div className='nav-item'>
-              <Link to='/experience' className='btn btn-ghost btn-sm rounded-btn'>
+              <a href='#experience' className='btn btn-ghost btn-sm rounded-btn'>
                 Experience
-              </Link>
+              </a>
             </div>
             <div className='nav-item'>
-              <Link to='/portfolio' className='btn btn-ghost btn-sm rounded-btn'>
+              <a href='#portfolio' className='btn btn-ghost btn-sm rounded-btn'>
                 Portfolio
-              </Link>
+              </a>
             </div>
             <div className='nav-item'>
-              <Link to='/contact' className='btn btn-ghost btn-sm rounded-btn'>
+              <a href='#contact' className='btn btn-ghost btn-sm rounded-btn'>
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>

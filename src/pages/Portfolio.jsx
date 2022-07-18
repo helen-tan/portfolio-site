@@ -1,6 +1,8 @@
 function Portfolio() {
   return (
-    <div className='h-screen'>Portfolio</div>
+    <div id='portfolio' className='h-screen'>
+      Portfolio
+    </div>
   )
 }
 
