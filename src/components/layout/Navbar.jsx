@@ -34,22 +34,22 @@ function Navbar() {
         <div className="flex-1 px-2 mx-2">
           <div className={`${dropdownOpen ? "nav-menu active": "nav-menu"} flex justify-end`}>
             <div className='nav-item'>
-              <Link to='about' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='about' spy={true} smooth={true} offset={-64} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 About
               </Link>
             </div>
             <div className='nav-item'>
-              <Link to='experience' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='experience' spy={true} smooth={true} offset={-64} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Experience
               </Link>
             </div>
             <div className='nav-item'>
-              <Link to='portfolio' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='portfolio' spy={true} smooth={true} offset={-64} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Portfolio
               </Link>
             </div>
             <div className='nav-item'>
-              <Link to='contact' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='contact' spy={true} smooth={true} offset={-64} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Contact
               </Link>
             </div>
