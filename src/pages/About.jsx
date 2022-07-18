@@ -1,8 +1,8 @@
 function About() {
   return (
     <div id='about' className='bg-black text-grey h-auto p-24'>
-      <h2 className='text-5xl'>About Me</h2>
-      <h3 className='text-xl my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
+      <h2 className='text-5xl font-semibold'>About Me</h2>
+      <h3 className='text-xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
       <span className='divider h-0.5 bg-teal w-40'></span>
 
       <div className="about-wrapper flex flex-col md:flex-row-reverse">
