@@ -8,6 +8,10 @@
   transition: 0.5s background-color ease;
 }
 
+.nav-item {
+  cursor: pointer;
+}
+
 .hamburger {
   display: none;
 }

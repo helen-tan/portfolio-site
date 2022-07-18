@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 function Navbar() {
   const [transparent, setTransparent] = useState(true)
@@ -25,32 +26,32 @@ function Navbar() {
     <nav className={`navbar sticky top-0 text-neutral-content ${transparent ? "navbar-transparent": "navbar-black shadow-lg"}`}>
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
-          <a href='#top' className='text-lg font-bold align-middle'>
+          <Link to='top' spy={true} smooth={true} offset={50} duration={500} className='text-lg font-bold align-middle'>
             Helen Tan
-          </a>
+          </Link>
         </div>
 
         <div className="flex-1 px-2 mx-2">
           <div className={`${dropdownOpen ? "nav-menu active": "nav-menu"} flex justify-end`}>
             <div className='nav-item'>
-              <a href='#about' className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='about' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 About
-              </a>
+              </Link>
             </div>
             <div className='nav-item'>
-              <a href='#experience' className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='experience' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Experience
-              </a>
+              </Link>
             </div>
             <div className='nav-item'>
-              <a href='#portfolio' className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='portfolio' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Portfolio
-              </a>
+              </Link>
             </div>
             <div className='nav-item'>
-              <a href='#contact' className='btn btn-ghost btn-sm rounded-btn'>
+              <Link to='contact' spy={true} smooth={true} offset={50} duration={500} className='btn btn-ghost btn-sm rounded-btn'>
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
