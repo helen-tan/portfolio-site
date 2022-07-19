@@ -3,6 +3,7 @@ import { BsBookFill, BsTools } from 'react-icons/bs'
 function About() {
   return (
     <div id='about' className='bg-black text-grey h-auto p-24'>
+      {/*Text Section */}
       <h2 className='text-5xl font-semibold'>About Me</h2>
       <h3 className='text-2xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
       <span className='divider h-0.5 bg-teal w-40'></span>
@@ -41,19 +42,47 @@ function About() {
 
       </div>
 
+      {/*Skills Section */}
       <h2 className='text-5xl font-semibold'>Skills</h2>
       <span className='divider h-0.5 bg-teal w-40'></span>
       <p className="text-2lg mb-4">Some technologies I've used:</p>
 
       <div className='about-skills-wrapper flex flex-col md:flex-row justify-between'>
-        <div className='text-2xl font-semibold p-4 w-full flex items-center justify-center md:justify-start w-1/2'>
-          <BsBookFill/>
-          <h3 className='ml-2'>Languages and Frameworks</h3>
+        {/*Languages & Frameworks*/}
+        <div className='w-full p-4 md:w-1/2'>
+          <div className='text-2xl font-semibold p-3 w-full flex items-center justify-center md:justify-start w-1/2'>
+            <BsBookFill/>
+            <h3 className='ml-2'>Languages and Frameworks</h3>
+          </div>
+          <div className='bg-dark-grey h-fit rounded-lg flex flex-col p-4'>
+            <div className='flex'>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SCSS" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" className='w-1/4 p-3'/>
+            </div>
+            <div className='flex'>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/rails.png" alt="Ruby on Rails" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" className='w-1/4 p-3'/>
+            </div>
+            <div className='flex'>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" className='w-1/4 p-3'/>
+            </div>
+          </div>
         </div>
 
-        <div className='text-2xl font-semibold p-4 w-full flex items-center justify-center md:justify-start w-1/2 '>
-          <BsTools/>
-          <h3 className='ml-2'>Tools</h3>
+        {/*Tools*/}
+        <div className='w-full p-4 md:w-1/2'>
+          <div className='text-2xl font-semibold p-3 w-full flex items-center justify-center md:justify-start w-1/2 '>
+            <BsTools/>
+            <h3 className='ml-2'>Tools</h3>
+          </div>
+          <div className='bg-dark-grey h-auto rounded-lg'>
+            icons
+          </div>
         </div>
 
       </div>
