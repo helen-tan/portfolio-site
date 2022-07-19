@@ -45,13 +45,13 @@ function About() {
       <span className='divider h-0.5 bg-teal w-40'></span>
       <p className="text-2lg mb-4">Some technologies I've used:</p>
 
-      <div className='about-skills-wrapper flex justify-between'>
-        <div className='text-2xl font-semibold p-4 w-1/2 flex items-center'>
+      <div className='about-skills-wrapper flex flex-col md:flex-row justify-between'>
+        <div className='text-2xl font-semibold p-4 w-full flex items-center justify-center md:justify-start w-1/2'>
           <BsBookFill/>
           <h3 className='ml-2'>Languages and Frameworks</h3>
         </div>
 
-        <div className='text-2xl font-semibold p-4 w-1/2 flex items-center'>
+        <div className='text-2xl font-semibold p-4 w-full flex items-center justify-center md:justify-start w-1/2 '>
           <BsTools/>
           <h3 className='ml-2'>Tools</h3>
         </div>
