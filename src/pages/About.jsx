@@ -1,4 +1,7 @@
 import { BsBookFill, BsTools } from 'react-icons/bs'
+import githubLogo from '../assets/images/github-logo-white.png'
+import cliLogo from '../assets/images/cli-logo-white.png'
+import postmanLogo from '../assets/images/postman-logo.png'
 
 function About() {
   return (
@@ -56,32 +59,42 @@ function About() {
           </div>
           <div className='bg-dark-grey h-fit rounded-lg flex flex-col p-4'>
             <div className='flex'>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SCSS" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SCSS" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" className='w-1/4 p-4'/>
             </div>
             <div className='flex'>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/rails.png" alt="Ruby on Rails" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/rails.png" alt="Ruby on Rails" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" className='w-1/4 p-4'/>
             </div>
             <div className='flex'>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" className='w-1/4 p-3'/>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" className='w-1/4 p-3'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" className='w-1/4 p-4'/>
             </div>
           </div>
         </div>
 
         {/*Tools*/}
         <div className='w-full p-4 md:w-1/2'>
-          <div className='text-2xl font-semibold p-3 w-full flex items-center justify-center md:justify-start w-1/2 '>
+          <div className='text-2xl font-semibold p-3 w-full flex items-center justify-center md:justify-start w-1/2'>
             <BsTools/>
             <h3 className='ml-2'>Tools</h3>
           </div>
-          <div className='bg-dark-grey h-auto rounded-lg'>
-            icons
+          <div className='bg-dark-grey h-fit rounded-lg flex flex-col p-4'>
+            <div className='flex'>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" className='w-1/4 p-4'/>
+              <img src={githubLogo} alt="GitHub" className='w-1/4 p-4'/>
+              <img src={cliLogo} alt="JavaScript" className='w-1/4 p-4'/>
+            </div>
+            <div className='flex'>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="Figma" className='w-1/4 p-4'/>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className='w-1/4 p-4'/>
+              <img src={postmanLogo} alt="Postman" className='w-1/4 p-4'/>
+            </div>
           </div>
         </div>
 
