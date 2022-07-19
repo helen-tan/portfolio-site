@@ -19,3 +19,42 @@
   z-index: -1;
   overflow: hidden;
 }
+
+.timeline-wrapper {
+  position: relative;
+  height: 500px;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 2px;
+  background: $teal;
+}
+
+.timeline-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 20px;
+  margin-left: -25px;
+  border-radius: 50%;
+  background: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-card {
+  background-color: $black;
+  opacity: 0.85;
+  width: 85%;
+  padding: 1.5rem;
+  border-left: 3px;
+  position: absolute;
+  left: 100px;
+}
