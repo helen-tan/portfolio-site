@@ -2,10 +2,10 @@ import { BsBookFill, BsTools } from 'react-icons/bs'
 
 function About() {
   return (
-    <div id='about' className='bg-black text-grey h-auto p-24'>
+    <div id='about' className='bg-black text-grey h-auto px-6 py-24 md:p-24'>
       {/*Text Section */}
       <h2 className='text-5xl font-semibold'>About Me</h2>
-      <h3 className='text-2xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
+      <h3 className='text-xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
       <span className='divider h-0.5 bg-teal w-40'></span>
 
       <div className="about-wrapper flex flex-col md:flex-row-reverse">
