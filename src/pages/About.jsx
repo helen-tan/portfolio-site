@@ -1,15 +1,17 @@
+import { BsBookFill, BsTools } from 'react-icons/bs'
+
 function About() {
   return (
     <div id='about' className='bg-black text-grey h-auto p-24'>
       <h2 className='text-5xl font-semibold'>About Me</h2>
-      <h3 className='text-xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
+      <h3 className='text-2xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
       <span className='divider h-0.5 bg-teal w-40'></span>
 
       <div className="about-wrapper flex flex-col md:flex-row-reverse">
         <div className="flex justify-center items-center my-5 w-100 h-auto md:w-5/12">
           <img src="https://raw.githubusercontent.com/helen-tan/profile/master/images/profile.PNG" alt="Profile" className="rounded-full w-1/2 md: w-3/4"/>
         </div>
-        <div className="about-text-wrapper w-100 md:w-7/12">
+        <div className="about-text-wrapper w-100 mb-24 md:w-7/12">
           <p className="text-lg mb-4">
             My interest in web development started back in 2017 as a second year Engineering student at the National University
             of Singapore, when I attended a Bootstrap workshop and learned how to remove an annoying popups by deleting
@@ -35,6 +37,23 @@ function About() {
           <strong className='text-teal'>When I’m not in front of a computer screen</strong>, I could be reading, petting cats, gaming on my PS4, queuing for bubble tea, or wandering some
           part of Singapore that I haven’t been to.
           </p>
+        </div>
+
+      </div>
+
+      <h2 className='text-5xl font-semibold'>Skills</h2>
+      <span className='divider h-0.5 bg-teal w-40'></span>
+      <p className="text-2lg mb-4">Some technologies I've used:</p>
+
+      <div className='about-skills-wrapper flex justify-between'>
+        <div className='text-2xl font-semibold p-4 w-1/2 flex items-center'>
+          <BsBookFill/>
+          <h3 className='ml-2'>Languages and Frameworks</h3>
+        </div>
+
+        <div className='text-2xl font-semibold p-4 w-1/2 flex items-center'>
+          <BsTools/>
+          <h3 className='ml-2'>Tools</h3>
         </div>
 
       </div>
