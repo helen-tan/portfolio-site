@@ -48,7 +48,7 @@ function About() {
       {/*Skills Section */}
       <h2 className='text-5xl font-semibold'>Skills</h2>
       <span className='divider h-0.5 bg-teal w-40'></span>
-      <p className="text-2lg mb-4">Some technologies I've used:</p>
+      <p className="text-xl font-semibold mb-4">Some technologies I've used:</p>
 
       <div className='about-skills-wrapper flex flex-col md:flex-row justify-between'>
         {/*Languages & Frameworks*/}
