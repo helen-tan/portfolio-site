@@ -1,9 +1,9 @@
+import ExpCard from "../components/experience/ExpCard";
 import { GiGraduateCap, GiBriefcase } from "react-icons/gi";
 
 function Experience() {
   return (
     <div id='experience' className='text-grey'>
-      <div className='bg'></div>
 
       <div className="experience-wrapper px-6 py-24 md:p-24">
         <div className='flex flex-col justify-center items-center text-center mb-10'>
@@ -26,19 +26,7 @@ function Experience() {
                 <GiGraduateCap size={28} />
               </div>
 
-              <div className='timeline-card-wrapper'>
-                <div className="timeline-card">
-                  <h2 className='font-bold uppercase mb-1'>Full Stack Web Developer Student</h2>
-                  <h3 className="font-semibold text-teal">Le Wagon, Singapore</h3>
-                  <p className="my-5">
-                    Attended a 9-week intensive coding bootcamp learning Ruby, HTML, CSS, Bootstrap,
-                    JavaScript, SQL, git, GitHub, Figma prototyping, DB Schema planning, OOP, MVC (Model View Controller),
-                    Object Relational Mapping, Heroku and Ruby on Rails. Designed, implemented and shipped to production
-                    a 2 Ruby on Rails prototypes.
-                  </p>
-                  <p className="text-gray-400 uppercase">Apr 2022 - Jun 2022</p>
-                </div>
-              </div>
+              <ExpCard />
             </div>
 
             <div className="timeline-block">
@@ -120,6 +108,7 @@ function Experience() {
               </div>
             </div>
 
+            <ExpCard />
           </div>
         </div>
       </div>
