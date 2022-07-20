@@ -18,6 +18,7 @@ function Experience() {
         </div>
 
         <div className="timeline-wrapper">
+          <i className="up-arrow"></i>
           <div className="timeline">
 
             <div className="timeline-block">
