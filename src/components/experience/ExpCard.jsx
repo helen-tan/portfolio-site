@@ -1,16 +1,23 @@
-function ExpCard() {
+import { GiGraduateCap, GiBriefcase } from "react-icons/gi";
+
+function ExpCard( { position, company, desc, duration, icon } ) {
+  //console.log(item);
+
   return (
-    <div className='timeline-card-wrapper'>
-      <div className="timeline-card">
-        <h2 className='font-bold uppercase mb-1'>Full Stack Web Developer Student</h2>
-        <h3 className="font-semibold text-teal">Le Wagon, Singapore</h3>
-        <p className="my-5">
-          Attended a 9-week intensive coding bootcamp learning Ruby, HTML, CSS, Bootstrap,
-          JavaScript, SQL, git, GitHub, Figma prototyping, DB Schema planning, OOP, MVC (Model View Controller),
-          Object Relational Mapping, Heroku and Ruby on Rails. Designed, implemented and shipped to production
-          a 2 Ruby on Rails prototypes.
-        </p>
-        <p className="text-gray-400 uppercase">Apr 2022 - Jun 2022</p>
+    <div className="timeline-block">
+      <div className="timeline-icon">
+        { (icon === 'study') ? <GiGraduateCap size={28} /> : <GiBriefcase size={28} />}
+      </div>
+
+      <div className='timeline-card-wrapper'>
+        <div className="timeline-card">
+          <h2 className='font-bold uppercase mb-1'>{position}</h2>
+          <h3 className="font-semibold text-teal">{company}</h3>
+          <p className="my-5">
+            {desc}
+          </p>
+          <p className="text-gray-400 uppercase">{duration}</p>
+        </div>
       </div>
     </div>
   )
