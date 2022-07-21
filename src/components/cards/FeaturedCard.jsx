@@ -1,10 +1,16 @@
+import chumHomepage from '../../assets/images/portfolio/chum-homepage.PNG'
+import chumCards from '../../assets/images/portfolio/chum-itineraries.PNG'
+
 function FeaturedCard() {
   return (
     <div className="featured-card p-3">
-      <div className="screenshots">
 
+      <div className="screenshots">
+        <img className='img-1' src={chumHomepage} alt="screenshot" />
+        <img className='img-2' src={chumCards} alt="screenshot" />
       </div>
-      <div className="featured-header flex flex-col py-3 md:flex-row md:justify-between">
+
+      <div className="featured-header flex flex-col pb-3 pt-6 md:flex-row md:justify-between">
         <h3 className="text-2xl font-bold">CHUM</h3>
         <div className="flex mt-3 md:mt-0">
           <a href="https://www.chum.voyage/" target="_blank" rel="noreferrer" className='btn btn-transparent-teal btn-sm mr-2'>Demo</a>

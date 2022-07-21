@@ -1,7 +1,7 @@
 import { BsBookFill, BsTools } from 'react-icons/bs'
-import githubLogo from '../assets/images/github-logo-white.png'
-import cliLogo from '../assets/images/cli-logo-white.png'
-import postmanLogo from '../assets/images/postman-logo.png'
+import githubLogo from '../assets/images/skills/github-logo-white.png'
+import cliLogo from '../assets/images/skills/cli-logo-white.png'
+import postmanLogo from '../assets/images/skills/postman-logo.png'
 
 function About() {
   return (
