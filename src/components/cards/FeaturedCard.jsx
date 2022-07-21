@@ -28,6 +28,7 @@ function FeaturedCard({ project }) {
           })}
         </ul>
       </div>
+      <span className='divider h-0.5 bg-teal w-40 mx-auto mt-10 md:ml-0'></span>
     </div>
   )
 }

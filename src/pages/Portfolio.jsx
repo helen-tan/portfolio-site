@@ -14,7 +14,6 @@ function Portfolio() {
         {projects.map((project) => {
           return <FeaturedCard key={project.id} project={project}/>
         })}
-
       </div>
 
     </div>
