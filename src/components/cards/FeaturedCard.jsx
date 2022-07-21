@@ -1,14 +1,14 @@
 function FeaturedCard() {
   return (
-    <div className="featured-card">
+    <div className="featured-card p-3">
       <div className="screenshots">
 
       </div>
-      <div className="featured-header flex justify-between py-3 bg-slate-700">
-        <h3 className="text-2xl ml-3">CHUM</h3>
-        <div className="flex">
-          <a href="https://www.chum.voyage/" target="_blank" rel="noreferrer" className='btn btn-transparent-teal btn-sm mx-2'>Demo</a>
-          <a href="https://github.com/rayjosong/rails-chum" target="_blank" rel="noreferrer" className='btn btn-transparent-teal btn-sm mx-2'>Code</a>
+      <div className="featured-header flex flex-col py-3 md:flex-row md:justify-between">
+        <h3 className="text-2xl font-bold">CHUM</h3>
+        <div className="flex mt-3 md:mt-0">
+          <a href="https://www.chum.voyage/" target="_blank" rel="noreferrer" className='btn btn-transparent-teal btn-sm mr-2'>Demo</a>
+          <a href="https://github.com/rayjosong/rails-chum" target="_blank" rel="noreferrer" className='btn btn-transparent-teal btn-sm'>Code</a>
         </div>
       </div>
 
