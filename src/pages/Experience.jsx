@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ExperienceData from '../data/ExperienceData';
-import ExpCard from "../components/experience/ExpCard";
+import ExpCard from "../components/cards/ExpCard";
 
 function Experience() {
   const [exp, setExp] = useState(ExperienceData)
@@ -10,7 +10,7 @@ function Experience() {
 
       <div className="experience-wrapper px-6 py-24 md:p-24">
         <div className='flex flex-col justify-center items-center text-center mb-10'>
-          <h2 className='text-5xl font-semibold'>Experience</h2>
+          <h2 className='text-3xl font-semibold md:text-4xl'>Experience</h2>
           <span className='divider h-0.5 bg-teal w-40 mr-auto ml-auto my-8'></span>
           <p className="text-lg">
             I am a graduate from the class of 2020 at the National University of Singapore,
