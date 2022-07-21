@@ -1,6 +1,8 @@
 import FeaturedCard from "../components/cards/FeaturedCard"
+import PortfolioData from "../data/PortfolioData"
 
 function Portfolio() {
+
   return (
     <div id='portfolio' className='bg-black text-grey h-auto px-6 py-24 md:p-24'>
       <h2 className='text-3xl font-semibold text-center md:text-4xl md:text-left'>Some Things I've Built</h2>
