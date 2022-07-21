@@ -25,7 +25,12 @@ function Experience() {
           <div className="timeline">
 
             {exp.map((item) => {
-              return <ExpCard key={item.id} position={item.position} company={item.company} desc={item.desc} duration={item.duration} icon={item.icon}/>
+              return <ExpCard key={item.id}
+                              position={item.position}
+                              company={item.company}
+                              desc={item.desc}
+                              duration={item.duration}
+                              icon={item.icon}/>
             })}
 
           </div>
