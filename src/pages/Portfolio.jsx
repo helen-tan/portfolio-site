@@ -11,7 +11,7 @@ function Portfolio() {
       <span className='divider h-0.5 bg-teal w-40 mx-auto md:ml-0'></span>
 
       <div className="portfolio-wrapper">
-        {projects.map((project) => {
+        {projects.filter(project => project.featured === true).map((project) => {
           return <FeaturedCard key={project.id} project={project}/>
         })}
       </div>
