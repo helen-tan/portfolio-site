@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ExperienceData from '../data/ExperienceData';
-import ExpCard from "../components/experience/ExpCard";
+import ExpCard from "../components/cards/ExpCard";
 
 function Experience() {
   const [exp, setExp] = useState(ExperienceData)
