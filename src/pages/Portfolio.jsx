@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import FeaturedCard from "../components/cards/FeaturedCard"
 import PortfolioData from "../data/PortfolioData"
 
 function Portfolio() {
+  const [projects, setProjects] = useState(PortfolioData)
 
   return (
     <div id='portfolio' className='bg-black text-grey h-auto px-6 py-24 md:p-24'>
@@ -9,7 +11,9 @@ function Portfolio() {
       <span className='divider h-0.5 bg-teal w-40 mx-auto md:ml-0'></span>
 
       <div className="portfolio-wrapper">
-        <FeaturedCard />
+        {projects.map((project) => {
+          return <FeaturedCard key={project.id} project={project}/>
+        })}
 
       </div>
 
