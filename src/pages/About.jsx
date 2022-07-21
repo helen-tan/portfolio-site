@@ -7,9 +7,9 @@ function About() {
   return (
     <div id='about' className='bg-black text-grey h-auto px-6 py-24 md:p-24'>
       {/*Text Section */}
-      <h2 className='text-5xl font-semibold'>About Me</h2>
-      <h3 className='text-xl font-semibold my-4'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
-      <span className='divider h-0.5 bg-teal w-40'></span>
+      <h2 className='text-3xl font-semibold text-center md:text-4xl md:text-left'>About Me</h2>
+      <h3 className='text-xl font-semibold my-4 text-center md:text-left'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
+      <span className='divider h-0.5 bg-teal w-40 mx-auto md:ml-0'></span>
 
       <div className="about-wrapper flex flex-col md:flex-row-reverse">
         <div className="flex justify-center items-center my-5 w-100 h-auto md:w-5/12">
@@ -46,9 +46,9 @@ function About() {
       </div>
 
       {/*Skills Section */}
-      <h2 className='text-5xl font-semibold'>Skills</h2>
-      <span className='divider h-0.5 bg-teal w-40'></span>
-      <p className="text-xl font-semibold mb-4">Some technologies I've used:</p>
+      <h2 className='text-3xl font-semibold text-center md:text-4xl md:text-left'>Skills</h2>
+      <span className='divider h-0.5 bg-teal w-40 mx-auto md:ml-0'></span>
+      <p className="text-xl font-semibold mb-4 text-center md:text-left">Some technologies I've used:</p>
 
       <div className='about-skills-wrapper flex flex-col md:flex-row justify-between'>
         {/*Languages & Frameworks*/}
