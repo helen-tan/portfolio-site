@@ -7,8 +7,12 @@ function ProjectCard({ project }) {
       <div className="project-card-top flex justify-between items-center mb-3">
         <FiFolder className='text-teal text-4xl' />
         <div className="project-links flex items-center">
-          <a href={project.code_link} target="_blank" rel="noreferrer" className="mr-2"><FiGithub size={20} /></a>
-          <a href={project.demo_link} target="_blank" rel="noreferrer"><FiExternalLink size={20} /></a>
+          {(project.code_link !== "") ?
+            <a href={project.code_link} target="_blank" rel="noreferrer" className="mr-2"><FiGithub size={20} /></a> : null
+          }
+          {(project.demo_link !== "") ?
+            <a href={project.demo_link} target="_blank" rel="noreferrer"><FiExternalLink size={20} /></a> : null
+          }
         </div>
       </div>
 

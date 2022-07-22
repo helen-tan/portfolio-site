@@ -62,7 +62,28 @@ const PortfolioData = [
     featured: false,
     img_1_path: "",
     img_2_path: ""
-
+  },
+  {
+    id: 6,
+    title: "Movies Watch List",
+    desc: "This is my first portfolio website, built with ReactJS and Tailwind CSS. I was interested in learning both ReactJS and Tailwind CSS and hence decided to try them out for this portfolio website.",
+    demo_link: "",
+    code_link: "https://github.com/helen-tan/rails-watch-list",
+    used_items: ["HTML", "SCSS", "JavaScript", "Ruby on Rails", "Cloudinary", "PostgreSQL"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
+  },
+  {
+    id: 7,
+    title: "Github Finder",
+    desc: "This is my first portfolio website, built with ReactJS and Tailwind CSS. I was interested in learning both ReactJS and Tailwind CSS and hence decided to try them out for this portfolio website.",
+    demo_link: "",
+    code_link: "https://github.com/helen-tan/github-finder",
+    used_items: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
   }
 ]
 
