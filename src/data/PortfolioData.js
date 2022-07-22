@@ -4,6 +4,8 @@ import meatRepoHomepage from '../assets/images/portfolio/meatrepo-homepage.PNG'
 import meatRepoProducts from '../assets/images/portfolio/meatrepo-products.PNG'
 import genshinWish1 from '../assets/images/portfolio/genshinwish-1.PNG'
 import genshinWish2 from '../assets/images/portfolio/genshinwish-2.PNG'
+import portfolioSite1 from '../assets/images/portfolio/portfolio-site-1.PNG'
+import portfolioSite2 from '../assets/images/portfolio/portfolio-site-2.PNG'
 
 const PortfolioData = [
   {
@@ -38,6 +40,17 @@ const PortfolioData = [
     featured: true,
     img_1_path: `${genshinWish1}`,
     img_2_path: `${genshinWish2}`
+  },
+  {
+    id: 4,
+    title: "Personal Website",
+    desc: "This is my first portfolio website, built with ReactJS and Tailwind CSS. I was interested in learning both ReactJS and Tailwind CSS and hence decided to try them out for this portfolio website.",
+    demo_link: "https://helen-tan.github.io/genshin-impact-wish-simulator/",
+    code_link: "https://github.com/helen-tan/genshin-impact-wish-simulator",
+    used_items: ["HTML", "SCSS", "Tailwind CSS", "ReactJS"],
+    featured: true,
+    img_1_path: `${portfolioSite1}`,
+    img_2_path: `${portfolioSite2}`
   }
 ]
 
