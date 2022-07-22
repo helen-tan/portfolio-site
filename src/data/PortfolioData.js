@@ -51,6 +51,39 @@ const PortfolioData = [
     featured: true,
     img_1_path: `${portfolioSite1}`,
     img_2_path: `${portfolioSite2}`
+  },
+  {
+    id: 5,
+    title: "Feedback App",
+    desc: "A simple React app that allows users to create, update and delete a feedback with ratings.",
+    demo_link: "https://feedback-react-app-prac.herokuapp.com/",
+    code_link: "https://github.com/helen-tan/react-feedback-app",
+    used_items: ["HTML", "CSS", "ReactJS"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
+  },
+  {
+    id: 6,
+    title: "Movies Watch List",
+    desc: "An application for saving movies by genre, built with Ruby on Rails. A practice project made during the Le Wagon bootcamp.",
+    demo_link: "",
+    code_link: "https://github.com/helen-tan/rails-watch-list",
+    used_items: ["HTML", "SCSS", "JavaScript", "Ruby on Rails", "Cloudinary", "PostgreSQL"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
+  },
+  {
+    id: 7,
+    title: "Github Finder",
+    desc: "A simple vanilla JS application to find a Github user profile with the Github API.",
+    demo_link: "",
+    code_link: "https://github.com/helen-tan/github-finder",
+    used_items: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
   }
 ]
 
