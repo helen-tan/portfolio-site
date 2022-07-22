@@ -20,7 +20,7 @@ function Portfolio() {
       <h2 className='text-3xl font-semibold text-center mt-24 md:text-4xl md:text-left'>Other Noteworthy Projects</h2>
       <span className='divider h-0.5 bg-teal w-40 mx-auto md:ml-0'></span>
 
-      <div className="projects-wrapper my-16">
+      <div className="projects-wrapper my-16 grid grid-cols-3 gap-4">
         {projects.filter(project => project.featured === false).map((project) => {
           return <ProjectCard key={project.id} project={project}/>
         })}
