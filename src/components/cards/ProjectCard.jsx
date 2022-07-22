@@ -2,7 +2,7 @@ import { FiFolder, FiExternalLink, FiGithub } from "react-icons/fi";
 
 function ProjectCard({ project }) {
   return(
-    <div className="project-card bg-dark-grey p-5">
+    <div className="project-card bg-dark-grey p-8 rounded group transition duration-300 ease-in-out hover:-translate-y-2">
 
       <div className="project-card-top flex justify-between items-center mb-3">
         <FiFolder className='text-teal text-4xl' />
@@ -16,7 +16,7 @@ function ProjectCard({ project }) {
         </div>
       </div>
 
-      <h3 className="mb-3 font-bold text-2xl">
+      <h3 className="mb-3 font-bold text-2xl group-hover:text-teal">
         <a href={project.demo_link} target="_blank" rel="noreferrer">
           {project.title}
         </a>
