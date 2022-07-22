@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import FeaturedCard from "../components/cards/FeaturedCard"
+import ProjectCard from '../components/cards/ProjectCard'
 import PortfolioData from "../data/PortfolioData"
 
 function Portfolio() {
@@ -16,6 +17,7 @@ function Portfolio() {
         })}
       </div>
 
+      <ProjectCard />
     </div>
   )
 }
