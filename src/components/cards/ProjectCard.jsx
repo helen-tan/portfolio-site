@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
         </a>
       </h3>
 
-      <div className="project-description w-full flex-none">
+      <div className="project-description w-full text-zinc-300 flex-none">
         <p>{project.desc}</p>
       </div>
 
