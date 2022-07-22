@@ -1,6 +1,35 @@
-function ProjectCard() {
+import { FiFolder, FiExternalLink, FiGithub } from "react-icons/fi";
+
+function ProjectCard({ project }) {
   return(
-    <div>ProjectCard</div>
+    <div className="project-card bg-dark-grey p-5">
+
+      <div className="project-card-top flex justify-between items-center mb-3">
+        <FiFolder className='text-teal text-4xl' />
+        <div className="project-links flex items-center">
+          <a href={project.code_link} target="_blank" rel="noreferrer" className="mr-2"><FiGithub size={20} /></a>
+          <a href={project.demo_link} target="_blank" rel="noreferrer"><FiExternalLink size={20} /></a>
+        </div>
+      </div>
+
+      <h3 className="mb-3 font-bold text-2xl">
+        <a href={project.demo_link} target="_blank" rel="noreferrer">
+          {project.title}
+        </a>
+      </h3>
+
+      <div className="project-description w-full">
+        <p>{project.desc}</p>
+      </div>
+
+      <div className="used">
+        <ul className="used-items">
+          {project.used_items.map((item) => {
+            return <li className="used-item" key={item}>{item}</li>
+          })}
+        </ul>
+      </div>
+    </div>
   )
 }
 

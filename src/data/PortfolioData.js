@@ -51,6 +51,18 @@ const PortfolioData = [
     featured: true,
     img_1_path: `${portfolioSite1}`,
     img_2_path: `${portfolioSite2}`
+  },
+  {
+    id: 5,
+    title: "Feedback App",
+    desc: "This is my first portfolio website, built with ReactJS and Tailwind CSS. I was interested in learning both ReactJS and Tailwind CSS and hence decided to try them out for this portfolio website.",
+    demo_link: "https://feedback-react-app-prac.herokuapp.com/",
+    code_link: "https://github.com/helen-tan/react-feedback-app",
+    used_items: ["HTML", "CSS", "ReactJS"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
+
   }
 ]
 
