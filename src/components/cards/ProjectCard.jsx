@@ -8,10 +8,10 @@ function ProjectCard({ project }) {
         <FiFolder className='text-teal text-4xl' />
         <div className="project-links flex items-center">
           {(project.code_link !== "") ?
-            <a href={project.code_link} target="_blank" rel="noreferrer" className="mr-2"><FiGithub size={20} /></a> : null
+            <a href={project.code_link} target="_blank" rel="noreferrer" className="mr-2 hover:text-teal"><FiGithub size={20} /></a> : null
           }
           {(project.demo_link !== "") ?
-            <a href={project.demo_link} target="_blank" rel="noreferrer"><FiExternalLink size={20} /></a> : null
+            <a href={project.demo_link} target="_blank" rel="noreferrer" className='hover:text-teal'><FiExternalLink size={20} /></a> : null
           }
         </div>
       </div>
