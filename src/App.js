@@ -11,7 +11,7 @@ function App() {
       <div className='site'>
         <Navbar />
 
-        <div className='site-content'>
+        <div className='container mx-auto site-content'>
           <main className='pb-12'>
             <Routes>
               <Route path='/' element={<Home />} />
