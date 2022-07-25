@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.852a938d.css",
-    "main.js": "/portfolio-site/static/js/main.038c12c1.js",
+    "main.js": "/portfolio-site/static/js/main.8ccb4293.js",
     "static/media/meatrepo-homepage.PNG": "/portfolio-site/static/media/meatrepo-homepage.29e8770cb84d159b5572.PNG",
     "static/media/chum-itineraries.PNG": "/portfolio-site/static/media/chum-itineraries.d0d90ca7742cdb74d173.PNG",
     "static/media/portfolio-site-1.PNG": "/portfolio-site/static/media/portfolio-site-1.2e424e57c2883e9980bb.PNG",
@@ -13,10 +13,10 @@
     "static/media/github-logo-white.png": "/portfolio-site/static/media/github-logo-white.11c826133370e0834c74.png",
     "index.html": "/portfolio-site/index.html",
     "main.852a938d.css.map": "/portfolio-site/static/css/main.852a938d.css.map",
-    "main.038c12c1.js.map": "/portfolio-site/static/js/main.038c12c1.js.map"
+    "main.8ccb4293.js.map": "/portfolio-site/static/js/main.8ccb4293.js.map"
   },
   "entrypoints": [
     "static/css/main.852a938d.css",
-    "static/js/main.038c12c1.js"
+    "static/js/main.8ccb4293.js"
   ]
 }
