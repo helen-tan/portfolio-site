@@ -9,7 +9,7 @@ const ExperienceData = [
   },
   {
     id: 2,
-    position: "Junior Java Programmer",
+    position: "Junior Java Programmer Trainee",
     company: "UBS AG, Singapore",
     desc: "Debugged Java code and resolved all error messages.",
     duration: "Jul 2021 - Dec 2021 (6 Months)",
@@ -17,7 +17,7 @@ const ExperienceData = [
   },
   {
     id: 3,
-    position: "Technology Business Analyst",
+    position: "Technology Business Analyst Trainee",
     company: "UBS AG, Singapore",
     desc: "Translated business requirements from SMEs and product owner into solution features. Collaborated with UI/UX specialist to create wireframes as per business requirements. Wrote detailed epics, user stories and acceptance criteria, working with the Product Owner to prioritize stories in the product backlog in JIRA for selection for the sprint backlog.",
     duration: "Nov 2020 - Jul 2021 (9 Months)",

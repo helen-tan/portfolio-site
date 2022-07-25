@@ -23,7 +23,7 @@ function About() {
           </p>
           <p className="text-lg mb-4">
             After having the privilege of working as a <span className='text-teal'>technology business analyst</span> for a year after graduation,
-            I experienced the process of gathering requirements and translating them into a wireframe. It quickly became apparent that
+            I experienced the process of gathering requirements and translating them into wireframes. It quickly became apparent that
             understanding how code works is key to becoming an effective member on a tech team, so as to communicate with other devs in
             their lingo, or to judge whether certain features are feasible.
           </p>
@@ -33,8 +33,8 @@ function About() {
             but also understood by other developers.
           </p>
           <p className="text-lg mb-4">
-            I consider work an ongoing education, and I hope to be with people who are willing to share their knowledge
-            as much as I want to learn. I aspire towards a career where I can create useful products using good software
+            I consider work an ongoing education, and I hope to be in a supportive community where people are willing to exchange
+            knowledge and grow together. I aspire towards a career where I can create useful products using good software
             practices, with people who bring out the best in each other.
           </p>
           <p className="text-lg mb-4">
