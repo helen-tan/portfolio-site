@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import logo from '../../assets/images/logo.png'
 
 function Navbar() {
   const [transparent, setTransparent] = useState(true)
@@ -27,7 +28,7 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="logo flex-none px-2 mx-2">
           <Link to='top' spy={true} smooth={true} offset={0} duration={500} className='text-lg font-bold align-middle'>
-            Helen Tan
+            <img src={logo} alt="logo" width="36px"/>
           </Link>
         </div>
 
