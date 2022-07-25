@@ -8,7 +8,7 @@ function Experience() {
   return (
     <div id='experience' className='text-grey'>
 
-      <div className="experience-wrapper px-6 py-24 md:p-24">
+      <div className="experience-wrapper container mx-auto  px-6 py-24 md:p-24">
         <div className='flex flex-col justify-center items-center text-center mb-10'>
           <h2 className='text-3xl font-semibold md:text-4xl'>Experience</h2>
           <span className='divider h-0.5 bg-teal w-40 mr-auto ml-auto my-8'></span>

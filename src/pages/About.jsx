@@ -5,7 +5,7 @@ import postmanLogo from '../assets/images/skills/postman-logo.png'
 
 function About() {
   return (
-    <div id='about' className='bg-black text-grey h-auto px-6 py-24 md:p-24'>
+    <div id='about' className='container mx-auto bg-black text-grey h-auto px-6 py-24 md:p-24'>
       {/*Text Section */}
       <h2 className='text-3xl font-semibold text-center md:text-4xl md:text-left'>About Me</h2>
       <h3 className='text-xl font-semibold my-4 text-center md:text-left'>Hey there, my name is Helen and I'm a web developer with a passion for front end development.</h3>
