@@ -54,11 +54,11 @@ const PortfolioData = [
   },
   {
     id: 5,
-    title: "Feedback App",
-    desc: "A simple React app that allows users to create, update and delete a feedback with ratings.",
-    demo_link: "https://feedback-react-app-prac.herokuapp.com/",
-    code_link: "https://github.com/helen-tan/react-feedback-app",
-    used_items: ["HTML", "CSS", "ReactJS"],
+    title: "React Github Finder",
+    desc: "A React application that uses the GitHub API to find a GitHub user profile.",
+    demo_link: "https://react-github-finder-swart.vercel.app/",
+    code_link: "https://github.com/helen-tan/react-github-finder",
+    used_items: ["HTML", "CSS", "ReactJS", "Tailwind CSS"],
     featured: false,
     img_1_path: "",
     img_2_path: ""
@@ -76,6 +76,17 @@ const PortfolioData = [
   },
   {
     id: 7,
+    title: "Feedback App",
+    desc: "A simple React app that allows users to create, update and delete a feedback with ratings.",
+    demo_link: "https://feedback-react-app-prac.herokuapp.com/",
+    code_link: "https://github.com/helen-tan/react-feedback-app",
+    used_items: ["HTML", "CSS", "ReactJS"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
+  },
+  {
+    id: 8,
     title: "Github Finder",
     desc: "A simple vanilla JS application to find a Github user profile with the Github API.",
     demo_link: "",
