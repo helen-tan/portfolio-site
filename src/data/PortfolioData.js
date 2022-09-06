@@ -95,6 +95,17 @@ const PortfolioData = [
     featured: false,
     img_1_path: "",
     img_2_path: ""
+  },
+  {
+    id: 9,
+    title: "House Marketplace",
+    desc: "A mobile web application where users can find and list houses for sale or for rent. This is a React / Firebase v9 project from Brad Traversy's React Front to Back course on Udemy.",
+    demo_link: "https://house-marketplace-nine-topaz.vercel.app/",
+    code_link: "https://github.com/helen-tan/house-marketplace",
+    used_items: ["ReactJS", "Firebase"],
+    featured: false,
+    img_1_path: "",
+    img_2_path: ""
   }
 ]
 
